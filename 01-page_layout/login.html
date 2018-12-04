@@ -1,27 +1,24 @@
 <html>
 <head>
-<meta charset="utf-8">
-<link rel="stylesheet" href="login.css">
-<title>Login</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="login.css">
+	<title>Login</title>
 </head>
 
 <body>
 <div class="middle">
-<div class="box">
-Login form<br><br>
-<form><div class="logForm">
-<div class="kurwa2">Login</div><input class="loginInput" type="text"></input><br>
-<div class="kurwa">Password</div><input class="passwordInput" type="text"></input><br><br>
-</div><br>
-<input class="button" value="Login" type="submit"><br>
-<input class="button" value="I don't remember my password" type="submit">
-
-
-
-
-</form>
-<a href="main.html">Home</a>
+	<div class="box">
+		<p>Login form</p>
+		<form>
+			<div class="input"><p>Login</p><input class="loginInput" type="text"></input></div>
+			<div class="input"><p>Password</p><input class="passwordInput" type="text"></input></div>
+			<input class="button" onclick="fill();" value="Login" type="submit"><br>
+			<input class="button" onclick="fill();" value="I don't remember my password" type="submit">
+		</form>
+		<a href="main.html">Home</a>
+	</div>
 </div>
-</div>
+
+<script src="text.js"></script> 
 </body>
 </html>

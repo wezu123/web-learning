@@ -148,7 +148,7 @@ hr{
 	margin: 30px auto;
 	width:90%;
 	color:#a8aaad;
-	box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.68);
+	box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.68);
 }
 
 @media screen and (max-width: 900px) {

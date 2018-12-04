@@ -1,4 +1,3 @@
 function fill(){
-	window.alert("xd");
-	document.write("xd")
+	alert("Feature not available yet");
 }
