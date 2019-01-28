@@ -1,8 +1,6 @@
 body{
 	font-family:Tahoma;
 	margin:0;
-	overflow:hidden;
-	height:100%;
 }
 
 .middle{
@@ -16,7 +14,7 @@ body{
 .box{
 	display:inline-block;
 	padding:35px 0 0 0;
-	margin-top:160px;
+	margin-top:30%;
 	width:400px;
 	height:500px;
 	background-color:#e5e5e5;
