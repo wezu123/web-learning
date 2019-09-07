@@ -13,12 +13,28 @@ body{
   top: -510px;
 }
 
-.nav-content{
+.welcome-text{
+  display: flex;
+  align-items: center;
+  background-color: rgba(36, 36, 36, 0.5);
+  width: 960px;
+  height:100%;
+}
+
+.head-content{
+    display: flex;
+    justify-content: center;
     width:100%;
     height:510px;
 }
 
-.nav-container{
+.welcome-text h1, p{
+  color:white;
+  margin: 0;
+  margin-left: 160px;
+}
+
+.head-container{
     position: absolute;
     z-index: 1;
 }
@@ -52,6 +68,7 @@ nav h1{
 
 .image{
   display: flex;
+  align-items: center;
   background-image:url("dojo.jpg");
   background-size: contain;
   width:960px;
